@@ -120,11 +120,13 @@ footer {
         flex: 1;
         gap: 30px;
     }
-
     #navbar a {
         border-top: none;
+        border-bottom: 2px solid #ffff;
         padding: 0;
-        
+    }
+    #navbar a:is(:first-of-type) {
+        border-top: none;
     }
     #main-doc {
         width: 100%;
